@@ -1,0 +1,176 @@
+html, body {
+ padding:0px;
+ margin: 5px;
+ background-color: white;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+section.first-content{
+    padding: 40px 0;
+}
+
+h1{
+    font-family: Didot;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    text-align: right;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    padding: 20px;
+}
+
+h2{
+    font-family: helvetica;
+    font-weight: lighter;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 250px;
+    left: 610px;
+}
+
+.column{
+    position: absolute;
+    top: 450px;
+    left: 50px;
+    color: white;
+    background-color: black;
+    font-size: 35px;
+    font-family: helvetica;
+    font-weight: lighter;
+    line-height: 50px;
+    padding: 40px;
+    margin: 10px;
+    
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    column-count: 2;
+    
+        -webkit-column-width: 50px; /* Chrome, Safari, Opera */
+    column-width: 50px;
+    
+    -webkit-column-gap: 70px; /* Chrome, Safari, Opera */
+    column-gap: 70px;
+}
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+
+section.module:last-child {
+  margin-bottom: 0;
+  color: white;
+  background-color: black;
+  font-size: 35px;
+    font-family: helvetica;
+    font-weight: lighter;
+}
+section.module h2 {
+  margin-bottom: 40px;
+    color: white;
+    background-color: black;
+    font-size: 35px;
+    font-family: helvetica;
+    font-weight: lighter;
+    line-height: 50px;
+    padding: 40px;
+}
+section.module p {
+  margin-bottom: 40px;
+  color: white;
+    background-color: black;
+    font-size: 14px;
+    font-family: helvetica;
+    font-weight: lighter;
+    line-height: 50px;
+}
+
+section.module p:last-child {
+  margin-bottom: 0;
+  color: white;
+    background-color: black;
+    font-size: 14px;
+    font-family: helvetica;
+    font-weight: lighter;
+    line-height: 50px;
+}
+
+section.module.content {
+  padding: 400px 0;
+  color: white;
+    background-color: black;
+    font-size: 35px;
+    font-family: helvetica;
+    font-weight: lighter;
+    line-height: 50px;
+       -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    column-count: 2;
+    
+        -webkit-column-width: 50px; /* Chrome, Safari, Opera */
+    column-width: 50px;
+    
+    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+    column-gap: 50px;
+}
+
+section.module.parallax {
+  height: 900px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+section.module.parallax-1 {
+  background-image: url(nomakeup.png);
+}
+section.module.parallax-2 {
+  background-image: url(halfmakeup.png);
+}
+section.module.parallax-3 {
+  background-image: url(half.png);
+}
+section.module.parallax-4 {
+  background-image: url(bettyditto.png);
+}
+
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+    color: white;
+    background-color: black;
+    font-family: helvetica;
+    font-weight: lighter;
+  }
+}

@@ -1,7 +1,6 @@
 html, body {
  padding:0px;
- margin: 5px;
- background-color: white;
+ margin: 0px;
 }
 
 .container {
@@ -34,45 +33,24 @@ h2{
     position: absolute;
     top: 250px;
     left: 610px;
+    padding: 10px;
 }
 
-.column{
-    position: absolute;
-    top: 450px;
-    left: 50px;
-    color: white;
-    background-color: black;
-    font-size: 35px;
-    font-family: helvetica;
-    font-weight: lighter;
-    line-height: 50px;
-    padding: 40px;
-    margin: 10px;
-    
-        -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    column-count: 2;
-    
-        -webkit-column-width: 50px; /* Chrome, Safari, Opera */
-    column-width: 50px;
-    
-    -webkit-column-gap: 70px; /* Chrome, Safari, Opera */
-    column-gap: 70px;
-}
 
 /* ============================================================
   SECTIONS
 ============================================================ */
 
 section.module:last-child {
-  margin-bottom: 0;
-  color: white;
-  background-color: black;
-  font-size: 35px;
+    margin-bottom: 0;
+    color: white;
+    background-color: black;
+    font-size: 35px;
     font-family: helvetica;
     font-weight: lighter;
 }
 section.module h2 {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
     color: white;
     background-color: black;
     font-size: 35px;
@@ -82,8 +60,8 @@ section.module h2 {
     padding: 40px;
 }
 section.module p {
-  margin-bottom: 40px;
-  color: white;
+    margin-bottom: 40px;
+    color: white;
     background-color: black;
     font-size: 14px;
     font-family: helvetica;
@@ -92,8 +70,8 @@ section.module p {
 }
 
 section.module p:last-child {
-  margin-bottom: 0;
-  color: white;
+    margin-bottom: 0;
+    color: white;
     background-color: black;
     font-size: 14px;
     font-family: helvetica;
@@ -102,21 +80,13 @@ section.module p:last-child {
 }
 
 section.module.content {
-  padding: 400px 0;
-  color: white;
+    padding: 100px 0;
+    color: white;
     background-color: black;
     font-size: 35px;
     font-family: helvetica;
     font-weight: lighter;
     line-height: 50px;
-       -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    column-count: 2;
-    
-        -webkit-column-width: 50px; /* Chrome, Safari, Opera */
-    column-width: 50px;
-    
-    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
-    column-gap: 50px;
 }
 
 section.module.parallax {
@@ -141,13 +111,13 @@ section.module.parallax h1 {
 
 
 section.module.parallax-1 {
-  background-image: url(nomakeup.png);
+  background-image: url(blackandwhite.png);
 }
 section.module.parallax-2 {
-  background-image: url(halfmakeup.png);
+  background-image: url(nomakeup.png);
 }
 section.module.parallax-3 {
-  background-image: url(half.png);
+  background-image: url(halfmakeup.png);
 }
 section.module.parallax-4 {
   background-image: url(bettyditto.png);
